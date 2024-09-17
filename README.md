@@ -63,6 +63,9 @@ To run this app locally, follow these steps:
     uvicorn main:app --reload
     ```
 
+    ![alt text](image.png)
+    ![alt text](image-1.png)
+
 ## Requirements
 
 The `requirements.txt` file includes the necessary Python packages:
