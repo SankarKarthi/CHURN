@@ -154,7 +154,7 @@ def mlr():
     independent_variables = st.multiselect('Select Independent Variables:', df.columns)
 
     if not dependent_variable or not independent_variables:
-        st.write("Please select both dependent and independent variables.")
+        st.write("Please select the independent variables.")
         return
 
     df.dropna(subset=[dependent_variable], inplace=True)
@@ -285,6 +285,8 @@ def random_forest_explanation():
 def display_explanation():
     st.title("Random Forest Explanation")
     st.markdown(random_forest_explanation(), unsafe_allow_html=True)
+
+    
 
 
 page_names_to_funcs = {
