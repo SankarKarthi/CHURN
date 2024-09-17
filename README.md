@@ -51,6 +51,11 @@ To run this app locally, follow these steps:
     streamlit run app.py
     ```
 
+4. **Run the FastAPI**
+   ```bash
+   uvicorn main:app --reload
+   ```
+
     Replace `app.py` with the name of your main Streamlit script if different.
 
 4. **Run the FastAPI**
