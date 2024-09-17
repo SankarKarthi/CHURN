@@ -47,7 +47,7 @@ To run this app locally, follow these steps:
 
 3. **Run the Streamlit app**:
 
-    ```bash
+    ```bash 
     streamlit run app.py
     ```
 
