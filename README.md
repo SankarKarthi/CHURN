@@ -1,13 +1,13 @@
-# Data Dumper
+# Churn Prediction
 
-# FASTAPI
-Have implemented FastAPI in this project but due to some unfinished EDA I couldn't record the FastAPI user interface. Hence I have done it using StreamLit
+# FastAPI
+Have implemented FastAPI in this project but due to some unfinished EDA I couldn't record the FastAPI user interface. Hence I have recorded it using StreamLit. Still you can find the screenshot of the FastAPI output below.
 
 ``` main.py,  model.py, and  random_forest_classifie.pkl ``` are part of FastAPI
 
 ## Overview
 
-**Data Dumper** is a Streamlit-based application designed to facilitate data analysis and machine learning tasks. It provides a user-friendly interface for data preprocessing, feature extraction, and model training, along with explanations of Random Forest's robustness. The app aims to simplify data analysis tasks for users without coding experience and offer insights into machine learning models.
+**Churn Prediction** is a Streamlit-based application designed to facilitate data analysis and machine learning tasks. It provides a user-friendly interface for data preprocessing, feature extraction, and model training, along with explanations of Random Forest's robustness.
 
 ## Features
 
